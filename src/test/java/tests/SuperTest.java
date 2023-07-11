@@ -7,7 +7,7 @@ public class SuperTest {
 
 	@Test
 	public void someTest() {
-
+		System.out.println("SUCCESS");
 	}
 
 
