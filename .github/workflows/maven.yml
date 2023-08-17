@@ -32,7 +32,7 @@ jobs:
       run: mvn clean test
 
     - name: Build and Deploy Repo
-      uses: JamesIves/github-pages-deploy-action@releases/v3-test
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
           BRANCH: build
