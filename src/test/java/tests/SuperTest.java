@@ -1,7 +1,6 @@
 package tests;
 
-import aquality.selenium.browser.AqualityServices;
-import models.ModelObject;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,6 +8,7 @@ import org.testng.annotations.Test;
 public class SuperTest {
 
 	@Test
+	@Story("Lalala")
 	public static void someTest() {
 		System.out.println(">>>TEST");
 		Assert.assertTrue(true);
