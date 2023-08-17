@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 17 12:36:39 GMT 2023","Thu Aug 17 12:36:39 GMT 2023","10","tests.SuperTest","Command line test","tests.SuperTest","tests.SuperTest","someTest","someTest",""
