@@ -31,14 +31,6 @@ jobs:
     - name: Build with Maven
       run: mvn clean test
 
-    - name: Build and Deploy Repo
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          BRANCH: build
-          FOLDER: build
-          TARGET_FOLDER: mytest
-
     - name: Get Allure history
       uses: actions/checkout@v3
       if: always()
